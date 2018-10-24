@@ -35,7 +35,7 @@
     "typescript": "^3.1.1"
   },
   "peerDependencies": {
-    "react": ">= 16.0.0"
+    "mobx": ">=4"
   },
   "jest": {
     "preset": "ts-jest",
@@ -57,7 +57,7 @@
   "description": "Map keyboard keydown and keyup event to a pressedKeys observable map",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rakannimer/mobx-keyboard-events"
+    "url": "https://github.com/rakannimer/mobx-keyboard"
   },
   "dependencies": {
     "lodash.memoize": "^4.1.2"

@@ -15,7 +15,13 @@ npm i mobx-keyboard
 ```typescript
 const { pressedKeys, unsub } = getMobxKeyboard();
 // Press a on keyboard
-pressedKeys.get("KeyA"); // => {key, keyCode, code ...}
+pressedKeys.get("KeyA"); // => {key, code, keyCode, ...}
 
 unsub(); // Stop listening to events
 ```
+
+### More docs
+
+[KeyboardEvent](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/KeyboardEvent)
+[KeyboardEvent Code](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code)
+[Nice utility by @wesbos](https://keycode.info/)
