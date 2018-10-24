@@ -1,7 +1,7 @@
 import { observable } from "mobx";
 import memoize from "lodash.memoize";
 
-const getMobxKeyboard = memoize(() => {
+export const getMobxKeyboard = memoize(() => {
   const pressedKeys = observable.map();
   function onKeyDown(ev: KeyboardEvent) {
     ev.preventDefault();
